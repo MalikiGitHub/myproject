@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      
+         <h2> Basket Ball Score Board </h2> 
+        <div class="container">
+             
+            <div>
+                <h3>HOME</h3>
+               <p id="box" aria-placeholder="0">  </p>  <br>
+            <div id="boxe">
+                <button class="boxes" onclick="plus1()"> +1</button>
+                <button class="boxes" onclick="plus2()" > +2</button>
+                <button class="boxes" onclick="plus3()"> +3</button>
+            </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                 <p id="box2">  </p>
+                 <br>
+                 <div id="boxe">
+                <button class="boxes" onclick="plus11()"> +1</button>
+                <button class="boxes" onclick="plus12()" > +2</button>
+                <button class="boxes" onclick="plus13()"> +3</button>
+            </div>
+            </div>
+        </div>
+        <p id="saved"> FINAL SCORE: </p>
+        <button id="btn" onclick="save()"> Save </button>
+        <button id="btn" onclick="btn()"> Restart </button>
+        <script src="index.js"></script>
+    </body>
+</html>

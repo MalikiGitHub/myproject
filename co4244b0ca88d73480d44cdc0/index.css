@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 250px;
+    
+    
+    
+}
+
+#box {
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    color: red;
+    margin: 0;
+}
+.boxes{
+    border: 1px solid white;
+    width: 30px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+   
+}
+
+
+#box2 {
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    color: red;
+    margin: 0;
+   
+}
+
+h2{
+    background-color:brown;
+    margin:0;
+    }
+    #btn{
+        margin-top: 10px;
+    }
+
+#saved {
+    color: white;
+}
